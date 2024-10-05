@@ -4,7 +4,7 @@
 - Prem: AI Model Testing & Training
 - Edrees: Front-end
 - Richie: Back-end
-- Griffin: Front-end/Back-end
+- Griffin: Front-end/Back-end & UI Design
 
 ## Standards & Rules
 
