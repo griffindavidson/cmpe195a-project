@@ -18,7 +18,7 @@
 ## Scrum/Agile Meetings
 
 - Sprint cycle: weekly
-- Sprint meetings: Wednesdays @ 6:30pm or Saturdays @ 2:30pm
+- Sprint meetings: Wednesdays @ 6:30pm
   - decided day will also decide when Sprints start/finish
 
 ## Next.JS Instructions
