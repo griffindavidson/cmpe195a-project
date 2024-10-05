@@ -30,6 +30,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 sudo yarn dev - macOS
+
 yarn dev      - Windows
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
