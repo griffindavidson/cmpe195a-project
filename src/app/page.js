@@ -7,4 +7,4 @@ export default function Home() {
       <p>CMPE 195 Hollistic Cancer Reserch App</p>
     </div>
   );
-}
+};
