@@ -1,13 +1,41 @@
-.html, .body {
-  width: 100%;
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/*
+Trying to implement this:
+https://www.youtube.com/watch?v=-VOUK-xFAyk
+not working for some reason, will figure out later for search bar
+*/
+
+:root {
+  /* Current color palet, will change slightly once dark/light modes added */
+  --purple: #7C00FE;
+  --yellow: #F9E400;
+  --orange: #FFAF00;
+  --red: #F5004F;
 }
 
-.home {
-  display: flex;
-  font-weight: bolder;
-  font-size: 5em;
-  align-items: center;
-  justify-content: center;
+html, body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+h1 {
   text-align: center;
 }
+
+.search-textfield {
+  width: 25%;
+  height: 40px;
+  max-width: 300px;
+  border: var(--purple) solid 0.125rem;
+  border-radius: 22px;
+  font-family: 'Lexend', sans-serif;
+  padding-inline: 10px;
+  font-size: medium;
+  position: relative;
+}
+
