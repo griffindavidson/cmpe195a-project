@@ -1,0 +1,15 @@
+.suggested-container, .saved-container, .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item {
+    background: gray;
+    margin: 10px;
+    width: 10em;
+    height: 10em;
+    line-height: 10em;
+    border-radius: 0.5rem;
+}

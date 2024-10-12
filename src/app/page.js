@@ -1,10 +1,26 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./home.css";
 
 export default function Home() {
   return (
-    <div className="home">
-      <p>CMPE 195 Hollistic Cancer Reserch App</p>
+    <div>
+      <h1>Suggested Articles</h1>
+      <div className="suggested-container">
+        <div className="item">Item 1</div>
+        <div className="item">Item 2</div>
+        <div className="item">Item 3</div>
+        <div className="item">Item 4</div>
+      </div>
+      <h1>Saved Articles</h1>
+      <div className="saved-container">
+        <div className="item">Item 1</div>
+        <div className="item">Item 2</div>
+        <div className="item">Item 3</div>
+      </div>
+      <h1>Search</h1>
+      <div className="search-container">
+        <input type="text" placeholder="search" className="search-textfield"/>
+      </div>
     </div>
   );
 };
