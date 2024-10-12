@@ -5,21 +5,21 @@ export default function Home() {
   return (
     <div>
       <h1>Suggested Articles</h1>
-      <div class="suggested-container">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
+      <div className="suggested-container">
+        <div className="item">Item 1</div>
+        <div className="item">Item 2</div>
+        <div className="item">Item 3</div>
+        <div className="item">Item 4</div>
       </div>
       <h1>Saved Articles</h1>
-      <div class="saved-container">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
+      <div className="saved-container">
+        <div className="item">Item 1</div>
+        <div className="item">Item 2</div>
+        <div className="item">Item 3</div>
       </div>
       <h1>Search</h1>
-      <div class="search-container">
-        <input type="text" placeholder="search" class="search-textfield"/>
+      <div className="search-container">
+        <input type="text" placeholder="search" className="search-textfield"/>
       </div>
     </div>
   );

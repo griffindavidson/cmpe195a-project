@@ -4,6 +4,9 @@
 Trying to implement this:
 https://www.youtube.com/watch?v=-VOUK-xFAyk
 not working for some reason, will figure out later for search bar
+
+Infinte Scroll CSS only:
+https://youtu.be/Reu0hHbis5w?si=-6y9alx2-Fj8Wxzl
 */
 
 :root {
@@ -14,7 +17,7 @@ not working for some reason, will figure out later for search bar
   --red: #F5004F;
 }
 
-html, body {
+html, body, button {
   width: 100%;
   margin: 0;
   font-family: 'Lexend', sans-serif;
