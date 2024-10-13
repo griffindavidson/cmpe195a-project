@@ -22,38 +22,20 @@ export default function Home() {
         <input type="text" placeholder="search" className="search-textfield"/>
 
         <div className="search-result-container">
-          <div className="result-container">
-            <div className="search-result-image"></div>
-            <div className="search-result-title">Article Title</div>
-          </div>
-          <div className="search-result-text">
-            lorem ipsum adkjf lksdal  lfalafl default  akl alk l kladk iiog owogjo aogoa eoao goa oa
-            jojfowi awo foaf
-          </div>
+          <div className="search-result-image"></div>
+          <div className="search-result-title">Article Title</div>
         </div>
-
+        
         <div className="search-result-container">
-          <div className="result-container">
-            <div className="search-result-image"></div>
-            <div className="search-result-title">Article Title</div>
-          </div>
-          <div className="search-result-text">
-            lorem ipsum adkjf lksdal  lfalafl default  akl alk l kladk iiog owogjo aogoa eoao goa oa
-            jojfowi awo foaf
-          </div>
+          <div className="search-result-image"></div>
+          <div className="search-result-title">Article Title</div>
         </div>
-
+      
         <div className="search-result-container">
-          <div className="result-container">
-            <div className="search-result-image"></div>
-            <div className="search-result-title">Article Title</div>
-          </div>
-          <div className="search-result-text">
-            lorem ipsum adkjf lksdal  lfalafl default  akl alk l kladk iiog owogjo aogoa eoao goa oa
-            jojfowi awo foaf
-          </div>
+          <div className="search-result-image"></div>
+          <div className="search-result-title">Article Title</div>
         </div>
-
+        
       </div>
     </div>
   );

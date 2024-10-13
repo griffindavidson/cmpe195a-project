@@ -1,9 +1,15 @@
-.suggested-container, .saved-container, .search-container {
+.suggested-container, .saved-container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     overflow: scroll;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
@@ -22,15 +28,17 @@
 
 .search-result-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     text-align: start;
-    background-color: lightgray;
     border-radius: 0.5rem;
-    width: 50%;
-    max-width: 1000px;
+    width: 25%;
     min-width: 350px;
+    aspect-ratio: 1;
     height: auto;
     margin: 20px 0px 0px 0px;
+    overflow: hidden;
+    
 }
 
 .search-result-title {
@@ -38,15 +46,11 @@
     padding-bottom: 5px;
 }
 
-.search-result-text {
-    padding-top: 10px;
-    padding-right: 10px;
-}
-
 .search-result-image {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    aspect-ratio: 1;
+    height: auto;
     background-color: gray;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     margin: 10px;
 }
