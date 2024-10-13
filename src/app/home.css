@@ -13,3 +13,38 @@
     line-height: 10em;
     border-radius: 0.5rem;
 }
+
+.search-container {
+    flex-direction: column;
+}
+
+.search-result-container {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    width: 50%;
+    max-width: 1000px;
+    min-width: 500px;
+    height: auto;
+    margin: 20px 0px 0px 0px;
+}
+
+.search-result-title {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.search-result-text {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.search-result-image {
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0.25rem;
+    margin: 10px;
+}
