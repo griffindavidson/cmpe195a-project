@@ -31,9 +31,8 @@ h1 {
 }
 
 .search-textfield {
-  width: 25%;
+  width: 300px;
   height: 40px;
-  max-width: 300px;
   border: var(--purple) solid 0.125rem;
   border-radius: 22px;
   font-family: 'Lexend', sans-serif;

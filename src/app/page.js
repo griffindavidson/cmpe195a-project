@@ -20,6 +20,22 @@ export default function Home() {
       <h1>Search</h1>
       <div className="search-container">
         <input type="text" placeholder="search" className="search-textfield"/>
+
+        <div className="search-result-container">
+          <div className="search-result-image"></div>
+          <div className="search-result-title">Article Title</div>
+        </div>
+        
+        <div className="search-result-container">
+          <div className="search-result-image"></div>
+          <div className="search-result-title">Article Title</div>
+        </div>
+      
+        <div className="search-result-container">
+          <div className="search-result-image"></div>
+          <div className="search-result-title">Article Title</div>
+        </div>
+        
       </div>
     </div>
   );
