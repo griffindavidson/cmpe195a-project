@@ -1,16 +1,16 @@
-{
-  "name": "cancer-app",
+{   "name": "cancer-app",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.14"
-  }
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "^14.2.15",
+        "openai": "^4.67.3",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    }
 }
