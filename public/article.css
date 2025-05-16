@@ -1,0 +1,40 @@
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2rem auto;
+    max-width: 700px;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-left: 4ch;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+a.read {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    background-color: #818;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: fit-content;
+}
