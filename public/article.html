@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html><
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="charset" content="UTF-8">
-    <link rel="stylesheet" type="text/css" href="article.css">
-    <script src="article.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Article Details</title>
+  <link rel="stylesheet" type="text/css" href="article.css" />
+  <script src="article.js" defer></script>
 </head>
-
 <body>
-  <main>
-    <h1 id="title"></h1>
-    <h3 id="authors"></h3>
-    <pre id="summary"></pre>
+  <main class="container">
+    <header>
+      <h1 id="title">Loading...</h1>
+      <p id="authors" class="authors"></p>
+    </header>
+
+    <section>
+      <h2>AI Summary</h2>
+      <div id="summary" class="summary-box"></div>
+    </section>
   </main>
 </body>
 </html>

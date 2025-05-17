@@ -101,7 +101,8 @@ fetchCore("cancer").then(data => {
     const articles = data.results.map(paper => ({
       title: paper.title,
       authors: (paper.authors || []).map(a => a.name).join("; "),
-      downloadUrl: paper.downloadUrl || "No download URL available"
+      downloadUrl: paper.downloadUrl || "No download URL available",
+      text: paper.abstract
     }));
 
     console.log(articles);

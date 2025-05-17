@@ -55,6 +55,27 @@ a, a:visited {
     align-items: center;
 }
 
+/* Add spacing between results */
+a.link {
+    transition: background-color 0.2s ease;
+}
+
+a.link:hover {
+    background-color: #ddd;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+}
+
+.author-container {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+
 /* Utility Classes */
 
 .red {
