@@ -34,7 +34,7 @@ app.get('/articles', async (req, res) => {
 app.get("/article/:id", async (req, res) => {
   const id = req.params.id;
   try {
-    const response = await fetch(`https://api.core.ac.uk/v3/works/${id}?api_key=CVAOaxycKSgdjrN4mqTi78UpXPQ5lLFh`, {
+    const response = await fetch(`https://api.core.ac.uk/v3/works/${id}?api_key=${process.env.KEY}`, {
       headers: {
         "Accept": "application/json"
       }
@@ -108,7 +108,7 @@ app.listen(PORT, () => {
 
 async function fetchArticles(query) {
   try {
-    const url = `https://api.core.ac.uk/v3/search/works?q=${encodeURIComponent(query)}&page=1&pageSize=5&api_key=CVAOaxycKSgdjrN4mqTi78UpXPQ5lLFh`;
+    const url = `https://api.core.ac.uk/v3/search/works?q=${encodeURIComponent(query)}&page=1&pageSize=5&api_key=${process.env.KEY}`;
     const response = await fetch(url, {
       method: "GET",
       headers: {
